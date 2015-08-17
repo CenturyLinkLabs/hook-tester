@@ -1,0 +1,6 @@
+demosite:
+  build: .
+  ports:
+    - "80:80"
+  environment:
+    BOOM: $SHAKA
